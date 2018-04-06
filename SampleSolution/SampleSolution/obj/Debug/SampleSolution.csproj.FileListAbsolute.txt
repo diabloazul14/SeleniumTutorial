@@ -1,0 +1,9 @@
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\bin\Debug\SampleSolution.exe.config
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\bin\Debug\SampleSolution.exe
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\bin\Debug\SampleSolution.pdb
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\bin\Debug\WebDriver.dll
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\bin\Debug\WebDriver.xml
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\obj\Debug\SampleSolution.csprojResolveAssemblyReference.cache
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\obj\Debug\SampleSolution.csproj.CoreCompileInputs.cache
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\obj\Debug\SampleSolution.exe
+D:\projects\SeleniumTutorial\SampleSolution\SampleSolution\obj\Debug\SampleSolution.pdb
