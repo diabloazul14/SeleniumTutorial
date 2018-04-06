@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	<title>Selenium Tutorial</title>
+	<script>
+		function splice(string, startingIndex, endingIndex) {
+			var newString = '';
+			for (var i = startingIndex; i < endingIndex; i++) {
+				newString += string[i];
+			}
+			return newString;
+		};
+
+		function redirect() {
+			var currentUrl = window.location.href;
+			indexOfHtml = currentUrl.indexOf('.html');
+			var newUrl = splice(currentUrl, 0, indexOfHtml) + '2.html';
+			console.log(newUrl);
+			window.location.href = newUrl;
+		};
+	</script>
+</head>
+
+<body>
+	<h1>Welcome to the Selenium Tutorial! :)</h1>
+	<form>
+		<p>Name:
+			<input class="color: blue;" type="text" id="name" />
+		</p>
+
+		<p>Favorite Breeds Of Dog</p>
+		<p>Pomeranian
+			<input name="dog" type="radio" id="omi" />
+		</p>
+		<p>Shi Tzu
+			<input name="dog" type="radio" id="chopper" />
+		</p>
+		<p>Siberian Husky
+			<input name="dog" type="radio" id="brendan" />
+		</p>
+		<p>Winston
+			<input name="dog" type="radio" id="winnnnnstooon" />
+		</p>
+		<p>None of the above, I'm a bad person
+			<input name="dog" type="radio" id="sad" />
+		</p>
+
+		<p>Best Blizzard Game</p>
+		<select id="dropdown">
+			<option class="blizzardOption" id="dota2">DOTA 2</option>
+			<option class="blizzardOption" id="hots">HOTS</option>
+			<option class="blizzardOption" id="overwatch">Overwatch Obviously</option>
+			<option class="blizzardOption" id="other">I can't remember a fourth</option>
+		</select>
+		<br/>
+		<input type="button" value="Submit Now!!!" onclick="redirect();" id="submit"></input>
+	</form>
+</body>
+
+</html>
